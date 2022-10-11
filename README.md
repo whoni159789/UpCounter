@@ -5,7 +5,7 @@ Vivado 2020.1에서 Verilog를 이용한 UpCounter 기능 구현 코드
 Basys 3의 Internal clock 100MHz를 이용하여 0.1초마다 1씩 증가하는 수를 FND에 출력하는 코드
 
 ## 2. RTL Analysis
--- FND_Digit Part  
+### [FND_Digit Part]  
 2-1-1) ClockDivider_Digit
 ![ClockDivider_Digit RTL](https://user-images.githubusercontent.com/113006133/195026254-e4bf0467-704c-48f0-a988-cd32768568d7.JPG)
 
@@ -15,7 +15,7 @@ Basys 3의 Internal clock 100MHz를 이용하여 0.1초마다 1씩 증가하는 
 2-1-3) Decoder_2x4
 ![Decoder_2x4 RTL](https://user-images.githubusercontent.com/113006133/195031156-bb3db2f1-d365-4170-b074-f628b920a153.JPG)
   
--- FND_Font Part
+### [FND_Font Part]
 2-2-1) ClockDivider_Data
 ![ClockDivider_Data RTL](https://user-images.githubusercontent.com/113006133/195031251-50f89bf8-6378-44b9-862f-ec16330fb891.JPG)
 
@@ -31,10 +31,8 @@ Basys 3의 Internal clock 100MHz를 이용하여 0.1초마다 1씩 증가하는 
 2-2-5) BCDToFND_Decoder
 ![BCDToFND_Decoder RTL](https://user-images.githubusercontent.com/113006133/195031512-edb1aa50-4061-48ce-b50b-2943aa6bf916.JPG)
 
--- Total UpCounter
+### [Total UpCounter]
 ![UpCounter RTL](https://user-images.githubusercontent.com/113006133/195031572-8237ccaf-03a7-4823-9157-f9c84d92c1c8.JPG)
 
-## 3. Simulation Result
-
-## 4. 동작 영상
-
+## 3. 동작 영상
+https://user-images.githubusercontent.com/113006133/195053916-3d9bc43f-3ba5-4a9f-8acf-644cb8d0268c.mp4
